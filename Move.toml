@@ -1,0 +1,10 @@
+[package]
+name = "coin_flip"
+version = "0.0.1"
+authors = ["Oly Sui <vo.q.cuong@gmail.com>"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "devnet" }
+
+[addresses]
+coin_flip = "0x0c08e321523406607bc603ae5eadd8422d5931fc832d030314900fc1a9a244d3"
